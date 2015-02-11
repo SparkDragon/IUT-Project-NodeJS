@@ -1,5 +1,5 @@
 function initAll () {
-	socket = io.connect('http://localhost:1337');
+	socket = io.connect('./');
 	
 	socket.on('urlAdded', onUrlReceived);
 	socket.on('hitAdded', onHitReceived);
