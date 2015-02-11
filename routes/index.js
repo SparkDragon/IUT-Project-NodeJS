@@ -15,7 +15,6 @@ router.get('/', function(req, res, next) {
 router.post('/url', function(req, res, next) {
 	var url = req.body.url;
 	if (typeof url !== "undefined" && urls.isValid(url)) {
-		console.log('ok');
 		urls.add(url, function(data) {
 			res.format({
 				'text/plain': function() {
