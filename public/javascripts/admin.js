@@ -1,5 +1,5 @@
 function initAll () {
-	socket = io.connect('./');
+	socket = io.connect('https://urlshortener.herokuapp.com/');
 	
 	socket.on('urlAdded', onUrlReceived);
 	socket.on('hitAdded', onHitReceived);
