@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  
+		<title>{{title}}</title>
+		<link type="text/css" rel="stylesheet" href="/stylesheets/style.css" />
+		<link type="text/css" rel="stylesheet" href="/stylesheets/index.css" />
+		<script type="text/javascript" src="/javascripts/xhr.js"></script>
+		<script type="text/javascript" src="/javascripts/index.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<header>
+				<h1>{{title}}</h1>
+			</header>
+			<table id="urlContainer">
+				<tr>
+					<td id="loader">
+						<img src="/images/loader.gif" id="loaderImg"/>
+					</td>
+					<td>
+						<input type="url" id="url" autofocus/>
+					</td>
+					<td>
+						<div id="shortenButton">Shorten</div>
+					</td>
+				</tr>
+			</table>
+			<div id="shortenUrl"></div>
+		</div>
+	</body>
+</html>

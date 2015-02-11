@@ -1,0 +1,64 @@
+div#content #shortenUrl {
+	text-align: center;
+	color: #FF5615;
+	margin: 20px 0px;
+}
+
+div#content #urlContainer {
+	width: 900px;
+	margin: 20px 62px;
+	border-collapse: collapse;
+	border: 0;
+}
+
+div#content #urlContainer td {
+	border: 0;
+	padding: 0px;
+}
+
+div#content #urlContainer #loader #loaderImg {
+	vertical-align: middle;
+	margin: auto;
+	height: 24px;
+	display: none;
+}
+
+div#content #urlContainer #loader {
+	text-align: center;
+	width: 60px;
+	height: 24px;
+}
+
+div#content #urlContainer #url {
+	width: 779px;
+	margin: 0px;
+	border: solid 1px #E4E4E4;
+	border-right: 0px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 20px;
+	text-align: center;
+	box-shadow: 0px 0px 2px #F4F4F4 inset;
+	border-radius: 3px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding: 0px;
+}
+
+div#content #urlContainer #shortenButton {
+	width: 59px;
+	height: 24px;
+	line-height: 24px;
+	border: solid 1px #EB8346;
+	border-left: 0px;
+	background-color: #FF5615;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0px;
+	border-radius: 3px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}

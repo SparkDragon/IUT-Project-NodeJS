@@ -1,0 +1,44 @@
+html {
+	padding: 0;
+	margin: 0;
+	display: table;
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #E5E5E5;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: arial, sans-serif;
+}
+
+#content {
+	width: 1024px;
+	margin: 0px auto;
+	border: solid 1px #D8D8D8;
+	border-radius: 3px;
+	background-color: #F5F5F5;
+}
+
+header {
+	width: 1024px;
+	margin: 0px auto;
+	text-align: center;
+	margin: 20px 0px;
+}
+
+header h1 {
+	margin: 0px;
+	font-size: 26px;
+	color: #3465FF;
+}
+
+.errorTitle {
+	margin: 0px;
+	font-size: 30px;
+	color: #FF0000;
+}

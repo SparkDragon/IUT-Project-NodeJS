@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  
+		<title>{{title}}</title>
+		<link type="text/css" rel="stylesheet" href="/stylesheets/style.css" />
+		<link type="text/css" rel="stylesheet" href="/stylesheets/admin.css" />
+		<script type="text/javascript" src="/javascripts/xhr.js"></script>
+		<script type="text/javascript" src="/javascripts/admin.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<header>
+				<h1>{{title}}</h1>
+			</header>
+			<section id="body">
+				<div id="links">
+					<table id="urlContainer">
+						<tr>
+							<td>
+								<input type="url" id="url" autofocus/>
+							</td>
+							<td>
+								<div id="shortenButton">Shorten</div>
+							</td>
+						</tr>
+					</table>
+					<div id="urlsContainer">
+						<div id="barLoader">
+							<img src="/images/bar_loader.gif"/>
+						</div>
+						<table id="urls">
+							<tbody></tbody>
+						</table>
+					</div>
+				</div>
+				<div id="stats">
+					<div class="stat">
+						<p id="linkCount">-</p>
+						<p class="statLabel">Shorten Links</p>
+					</div>
+					<div class="stat">
+						<p id="hitCount">-</p>
+						<p class="statLabel">Visited Links</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

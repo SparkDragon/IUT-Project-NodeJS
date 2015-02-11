@@ -1,0 +1,129 @@
+#body {
+	margin-top: 20px;
+}
+
+#stats {
+	width: 100px;
+	margin: 0px 50px;
+}
+
+#links {
+	float: right;
+	margin: 0px 50px;
+}
+
+.stat {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 50px;
+	padding: 10px;
+	border: solid 1px #E4E4E4;
+	text-align: center;
+	box-shadow: 0px 0px 2px #F4F4F4 inset;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+}
+
+.stat #hitCount,
+.stat #linkCount {
+	font-size: 35px;
+	padding: 0px;
+	margin: 10px 0px 0px;
+	color: #FF5615;
+}
+
+.stat .statLabel {
+	font-size: 12px;
+}
+
+div#content #urlContainer {
+	width: 774px;
+	margin: 0px;
+	border-collapse: collapse;
+	border: 0;
+}
+
+div#content #urlContainer td {
+	border: 0;
+	padding: 0px;
+}
+
+div#content #urlContainer #url {
+	width: 713px;
+	margin: 0px;
+	border: solid 1px #E4E4E4;
+	border-right: 0px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 20px;
+	text-align: center;
+	box-shadow: 0px 0px 2px #F4F4F4 inset;
+	border-radius: 3px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding: 0px;
+}
+
+div#content #urlContainer #shortenButton {
+	width: 59px;
+	height: 24px;
+	line-height: 24px;
+	border: solid 1px #EB8346;
+	border-left: 0px;
+	background-color: #FF5615;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0px;
+	border-radius: 3px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#urlsContainer {
+	width: 100%;
+	height: 194px;
+	margin: 24px 0px 50px;
+	overflow: auto;
+}
+
+#urlsContainer table {
+	width: 714px;
+	border-collapse: collapse;
+	display: none;
+}
+
+#urlsContainer table tr td{
+	border-bottom: 1px solid #C0C0C0;
+	text-align: center;
+}
+
+#urlsContainer table tr:last-child td{
+	border-bottom: 0px;
+}
+
+#urlsContainer table tr td {
+	height: 28px;
+	line-height: 28px;
+	padding: 5px;
+}
+
+.baseUrl {
+	color: #FF5615;
+	text-decoration: none;
+}
+
+.shortenUrl {
+	color: #3465FF;
+	text-decoration: none;
+}
+
+#barLoader {
+	width: 714px;
+	height: 194px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
